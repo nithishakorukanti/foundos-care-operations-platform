@@ -1,0 +1,9 @@
+{
+  "name": "foundos-care-operations-platform",
+  "private": true,
+  "workspaces": ["backend", "frontend", "shared-types"],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  }
+}
